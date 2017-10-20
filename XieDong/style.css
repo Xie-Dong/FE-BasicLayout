@@ -1,0 +1,135 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background: skyblue;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+.contain{
+    background: ghostwhite;
+    width: auto;
+}
+
+
+.header{
+
+}
+
+
+.banner{
+    background: aquamarine;
+    height:150px;
+
+}
+
+.nav{
+    text-align:center ;
+    margin-left: 15px;
+    position: fixed;
+    top: 0px;
+    _position: absolute;
+}
+
+.nav ul{
+
+    list-style-type:none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:0;
+    text-align: center;
+    display: inline-block;
+    overflow:hidden;
+
+}
+
+.nav li{
+
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float:left;
+
+
+}
+
+a:link,a:visited
+{
+    display:block;
+    width:120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#bebebe;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+a:hover,a:active
+{
+    background-color:#cc0000;
+}
+
+.Three_Box{
+    height: 200px;
+    margin-top: 5px;
+    max-height: 200px;
+    width: inherit;
+
+}
+
+.Three_Box_left{
+
+    background: red;
+    width: 100px;
+    float: left;
+    height: 100%;
+}
+
+.Three_Box_middle{
+    background: blue;
+    height: 100%;
+    margin:0px 0px 0px 100px;
+}
+
+.Three_Box_right{
+    background: red;
+    width: 100px;
+    float: right;
+    height: 100%;
+}
+
+.Two_Box{
+    height: 200px;
+    margin-top: 5px;
+    max-height: 200px;
+    width: inherit;
+}
+.Two_Box_Left{
+    width:30%;
+    height:100%;
+    background: lightslategray;
+    float:left;
+}
+.Two_Box_Right{
+    width:70%;
+    height:100%;
+    background:pink;
+    float:right;
+}
+
+.footer{
+
+    background: aquamarine;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height:100px;
+    width:auto;
+
+}
